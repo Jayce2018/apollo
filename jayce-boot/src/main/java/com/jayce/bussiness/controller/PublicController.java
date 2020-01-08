@@ -23,6 +23,7 @@ public class PublicController {
     public JSONObject apollo() {
         JSONObject jsonObject=new JSONObject();
         jsonObject.put("jayce.value",value);
+
         return jsonObject;
     }
 
